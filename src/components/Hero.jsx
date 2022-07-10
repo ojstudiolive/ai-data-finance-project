@@ -5,15 +5,15 @@ const Hero = () => {
   return (
     <div className='text-white'>
       <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-        <p className='text-[#00df9a] font-bold p-2'>GROW WITH ANALYTICS</p>
+        <p className='text-[#1363DF] font-bold p-2'>GROWING WITH ARTIFICAL INTELLIGENCE</p>
         <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>Grow With Data</h1>
-        <div className='flex justify-center items-center'> 
+        <div className='flex justify-center items-center'>
           <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>Fast, Flexible, Financing For</p>
           <Typed className='md:text-5xl sm:4-xl text-xl font-bold md:pl-4 pl-2'
-          strings={['BTB', 'BTC', 'SASS']} typeSpeed={120} backSpeed={140} loop />
+            strings={['BTB', 'BTC', 'SASS']} typeSpeed={120} backSpeed={140} loop />
         </div>
-        <p className='md:text-2xl text-xl font-bold text-gray-500 mx-2'>Monitor your data analytics to increase revenue for BTB, BTC and SASS platforms.</p>
-        <button className='bg-[#00df9a] w-[200px] rounded-md font-md my-6 mx-auto px-6 py-3 text-black'>Get Started</button>
+        <p className='md:text-2xl text-xl font-bold text-gray-500 mx-2'>Monitor your data analytics to increase revenue for BTB, BTC and SASS platforms with the help of AI.</p>
+        <button className='bg-[#1363DF] w-[200px] rounded-md font-bold my-6 mx-auto px-6 py-3 text-black'>Get Started</button>
       </div>
     </div>
   )
